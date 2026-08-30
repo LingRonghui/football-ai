@@ -1,0 +1,233 @@
+{
+ "brazil_serie_a": {
+  "sel": {
+   "alpha": 0.001,
+   "xi": 1.0,
+   "rho": 0.02,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 884,
+   "ll_1x2_base": 1.0151,
+   "ll_1x2_dc": 1.0153,
+   "ll_1x2_fuse": 0.9924,
+   "ll_ou_base": 0.6928,
+   "ll_ou_dc": 0.6928,
+   "ll_score_base": 2.7667,
+   "ll_score_dc": 2.767,
+   "ll_hcp_base": 1.2436,
+   "ll_hcp_dc": 1.2414
+  },
+  "sel_val_score_ll": 2.7828
+ },
+ "bundesliga": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 1.0,
+   "rho": -0.1,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 674,
+   "ll_1x2_base": 0.9967,
+   "ll_1x2_dc": 0.9951,
+   "ll_1x2_fuse": 0.9672,
+   "ll_ou_base": 0.6439,
+   "ll_ou_dc": 0.6437,
+   "ll_score_base": 3.0984,
+   "ll_score_dc": 3.0976,
+   "ll_hcp_base": 1.0917,
+   "ll_hcp_dc": 1.0993
+  },
+  "sel_val_score_ll": 3.0924
+ },
+ "eliteserien": {
+  "sel": {
+   "alpha": 0.001,
+   "xi": 1.0,
+   "rho": 0.05,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 559,
+   "ll_1x2_base": 0.9621,
+   "ll_1x2_dc": 0.9625,
+   "ll_1x2_fuse": 0.9452,
+   "ll_ou_base": 0.6925,
+   "ll_ou_dc": 0.6922,
+   "ll_score_base": 3.0717,
+   "ll_score_dc": 3.0729,
+   "ll_hcp_base": 1.0759,
+   "ll_hcp_dc": 1.0737
+  },
+  "sel_val_score_ll": 3.1511
+ },
+ "eredivisie": {
+  "sel": {
+   "alpha": 0.001,
+   "xi": 1.0,
+   "rho": -0.05,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 664,
+   "ll_1x2_base": 0.9873,
+   "ll_1x2_dc": 0.9857,
+   "ll_1x2_fuse": 0.9549,
+   "ll_ou_base": 0.6841,
+   "ll_ou_dc": 0.6843,
+   "ll_score_base": 3.0592,
+   "ll_score_dc": 3.0589,
+   "ll_hcp_base": 1.1593,
+   "ll_hcp_dc": 1.1639
+  },
+  "sel_val_score_ll": 3.0587
+ },
+ "la_liga": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 1.0,
+   "rho": 0.02,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 840,
+   "ll_1x2_base": 0.9858,
+   "ll_1x2_dc": 0.9859,
+   "ll_1x2_fuse": 0.956,
+   "ll_ou_base": 0.6808,
+   "ll_ou_dc": 0.6808,
+   "ll_score_base": 2.8036,
+   "ll_score_dc": 2.8032,
+   "ll_hcp_base": 1.1649,
+   "ll_hcp_dc": 1.1632
+  },
+  "sel_val_score_ll": 2.8181
+ },
+ "ligue_1": {
+  "sel": {
+   "alpha": 0.001,
+   "xi": 1.0,
+   "rho": -0.05,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 774,
+   "ll_1x2_base": 1.0004,
+   "ll_1x2_dc": 1.0015,
+   "ll_1x2_fuse": 0.9775,
+   "ll_ou_base": 0.7021,
+   "ll_ou_dc": 0.7022,
+   "ll_score_base": 3.041,
+   "ll_score_dc": 3.043,
+   "ll_hcp_base": 1.1498,
+   "ll_hcp_dc": 1.1531
+  },
+  "sel_val_score_ll": 2.9765
+ },
+ "mls": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 1.0,
+   "rho": -0.1,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 1024,
+   "ll_1x2_base": 1.0337,
+   "ll_1x2_dc": 1.0341,
+   "ll_1x2_fuse": 1.0218,
+   "ll_ou_base": 0.6771,
+   "ll_ou_dc": 0.6769,
+   "ll_score_base": 3.1014,
+   "ll_score_dc": 3.1034,
+   "ll_hcp_base": 1.1459,
+   "ll_hcp_dc": 1.1535
+  },
+  "sel_val_score_ll": 2.9678
+ },
+ "portugal_liga": {
+  "sel": {
+   "alpha": 0.001,
+   "xi": 1.0,
+   "rho": 0.1,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 678,
+   "ll_1x2_base": 0.9508,
+   "ll_1x2_dc": 0.9574,
+   "ll_1x2_fuse": 0.9246,
+   "ll_ou_base": 0.681,
+   "ll_ou_dc": 0.681,
+   "ll_score_base": 2.7972,
+   "ll_score_dc": 2.7957,
+   "ll_hcp_base": 1.1624,
+   "ll_hcp_dc": 1.1536
+  },
+  "sel_val_score_ll": 2.8793
+ },
+ "premier_league": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 0.5,
+   "rho": 0.02,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 838,
+   "ll_1x2_base": 0.9955,
+   "ll_1x2_dc": 0.9957,
+   "ll_1x2_fuse": 0.981,
+   "ll_ou_base": 0.6881,
+   "ll_ou_dc": 0.6881,
+   "ll_score_base": 2.9501,
+   "ll_score_dc": 2.9508,
+   "ll_hcp_base": 1.1467,
+   "ll_hcp_dc": 1.1451
+  },
+  "sel_val_score_ll": 3.0262
+ },
+ "serie_a": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 1.0,
+   "rho": 0.0,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 838,
+   "ll_1x2_base": 1.0002,
+   "ll_1x2_dc": 1.0002,
+   "ll_1x2_fuse": 0.9757,
+   "ll_ou_base": 0.709,
+   "ll_ou_dc": 0.709,
+   "ll_score_base": 2.8043,
+   "ll_score_dc": 2.8043,
+   "ll_hcp_base": 1.1439,
+   "ll_hcp_dc": 1.1439
+  },
+  "sel_val_score_ll": 2.8199
+ },
+ "veikkausliiga": {
+  "sel": {
+   "alpha": 1.0,
+   "xi": 1.0,
+   "rho": -0.05,
+   "w_fuse": 0.0
+  },
+  "test": {
+   "n_test": 416,
+   "ll_1x2_base": 1.0145,
+   "ll_1x2_dc": 1.0165,
+   "ll_1x2_fuse": 0.9875,
+   "ll_ou_base": 0.718,
+   "ll_ou_dc": 0.7177,
+   "ll_score_base": 3.0703,
+   "ll_score_dc": 3.0708,
+   "ll_hcp_base": 1.2021,
+   "ll_hcp_dc": 1.2059
+  },
+  "sel_val_score_ll": 2.9944
+ }
+}

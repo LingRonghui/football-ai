@@ -1,0 +1,258 @@
+{
+ "algo": "PoissonRegressor",
+ "val_perc": 0.2,
+ "alphas": [
+  0.001,
+  0.01,
+  0.1,
+  1.0
+ ],
+ "non_trainable": [
+  "Date",
+  "Season",
+  "Home",
+  "Away",
+  "HG",
+  "AG",
+  "Result",
+  "Result-U/O",
+  "HST",
+  "AST",
+  "HC",
+  "AC",
+  "Week"
+ ],
+ "leagues": {
+  "brazil_serie_a": {
+   "n_total": 4414,
+   "n_train": 3532,
+   "n_val": 882,
+   "feature_nan_ratio": 0.1203,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.01,
+     "val_deviance": 0.96998,
+     "val_mae": 0.8631,
+     "val_deviance_baseline_meanlam": 1.05276
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.04957,
+     "val_mae": 0.745,
+     "val_deviance_baseline_meanlam": 1.12285
+    }
+   }
+  },
+  "bundesliga": {
+   "n_total": 3366,
+   "n_train": 2693,
+   "n_val": 673,
+   "feature_nan_ratio": 0.1355,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.001,
+     "val_deviance": 1.13834,
+     "val_mae": 1.0548,
+     "val_deviance_baseline_meanlam": 1.31152
+    },
+    "away": {
+     "alpha": 1.0,
+     "val_deviance": 1.15165,
+     "val_mae": 0.9594,
+     "val_deviance_baseline_meanlam": 1.27394
+    }
+   }
+  },
+  "eliteserien": {
+   "n_total": 2792,
+   "n_train": 2234,
+   "n_val": 558,
+   "feature_nan_ratio": 0.1569,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.01,
+     "val_deviance": 1.13435,
+     "val_mae": 1.0476,
+     "val_deviance_baseline_meanlam": 1.29915
+    },
+    "away": {
+     "alpha": 0.01,
+     "val_deviance": 1.13861,
+     "val_mae": 0.9103,
+     "val_deviance_baseline_meanlam": 1.26251
+    }
+   }
+  },
+  "eredivisie": {
+   "n_total": 3316,
+   "n_train": 2653,
+   "n_val": 663,
+   "feature_nan_ratio": 0.1626,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.1,
+     "val_deviance": 1.03431,
+     "val_mae": 0.9884,
+     "val_deviance_baseline_meanlam": 1.20471
+    },
+    "away": {
+     "alpha": 1.0,
+     "val_deviance": 1.09647,
+     "val_mae": 0.889,
+     "val_deviance_baseline_meanlam": 1.23317
+    }
+   }
+  },
+  "la_liga": {
+   "n_total": 4200,
+   "n_train": 3360,
+   "n_val": 840,
+   "feature_nan_ratio": 0.1254,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.001,
+     "val_deviance": 0.96668,
+     "val_mae": 0.8878,
+     "val_deviance_baseline_meanlam": 1.1349
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.00015,
+     "val_mae": 0.7634,
+     "val_deviance_baseline_meanlam": 1.09737
+    }
+   }
+  },
+  "ligue_1": {
+   "n_total": 3866,
+   "n_train": 3093,
+   "n_val": 773,
+   "feature_nan_ratio": 0.1298,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.01,
+     "val_deviance": 1.15022,
+     "val_mae": 0.9995,
+     "val_deviance_baseline_meanlam": 1.24744
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.18847,
+     "val_mae": 0.9248,
+     "val_deviance_baseline_meanlam": 1.32263
+    }
+   }
+  },
+  "mls": {
+   "n_total": 5116,
+   "n_train": 4093,
+   "n_val": 1023,
+   "feature_nan_ratio": 0.1363,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.001,
+     "val_deviance": 1.11372,
+     "val_mae": 1.0255,
+     "val_deviance_baseline_meanlam": 1.17436
+    },
+    "away": {
+     "alpha": 0.01,
+     "val_deviance": 1.15431,
+     "val_mae": 0.9191,
+     "val_deviance_baseline_meanlam": 1.24294
+    }
+   }
+  },
+  "portugal_liga": {
+   "n_total": 3390,
+   "n_train": 2712,
+   "n_val": 678,
+   "feature_nan_ratio": 0.1583,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.01,
+     "val_deviance": 1.00161,
+     "val_mae": 0.8844,
+     "val_deviance_baseline_meanlam": 1.23675
+    },
+    "away": {
+     "alpha": 0.1,
+     "val_deviance": 1.03457,
+     "val_mae": 0.8044,
+     "val_deviance_baseline_meanlam": 1.21384
+    }
+   }
+  },
+  "premier_league": {
+   "n_total": 4190,
+   "n_train": 3352,
+   "n_val": 838,
+   "feature_nan_ratio": 0.1223,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.1,
+     "val_deviance": 1.09526,
+     "val_mae": 0.9681,
+     "val_deviance_baseline_meanlam": 1.2088
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.05723,
+     "val_mae": 0.8624,
+     "val_deviance_baseline_meanlam": 1.15611
+    }
+   }
+  },
+  "serie_a": {
+   "n_total": 4190,
+   "n_train": 3352,
+   "n_val": 838,
+   "feature_nan_ratio": 0.1233,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.001,
+     "val_deviance": 1.07778,
+     "val_mae": 0.8825,
+     "val_deviance_baseline_meanlam": 1.25645
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.04664,
+     "val_mae": 0.8128,
+     "val_deviance_baseline_meanlam": 1.15858
+    }
+   }
+  },
+  "veikkausliiga": {
+   "n_total": 2076,
+   "n_train": 1661,
+   "n_val": 415,
+   "feature_nan_ratio": 0.1603,
+   "rows_dropped_bad_target": 0,
+   "targets": {
+    "home": {
+     "alpha": 0.01,
+     "val_deviance": 1.08741,
+     "val_mae": 0.9615,
+     "val_deviance_baseline_meanlam": 1.21971
+    },
+    "away": {
+     "alpha": 0.001,
+     "val_deviance": 1.11987,
+     "val_mae": 0.9192,
+     "val_deviance_baseline_meanlam": 1.26601
+    }
+   }
+  }
+ }
+}
